@@ -1,0 +1,12 @@
+{
+	"name" : "puzzler",
+	"version" : "0.0.1",
+	"author" : "George Zalepa <george.zalepa@gmail.com>",
+	"description" : "library for manipulating Across Lite crossword puzzles",
+	"contributors" : [
+		{
+			"name" : "George Zalepa",
+			"email" : "george.zalepa@gmail.com"
+		}
+	]
+}
