@@ -2,7 +2,7 @@
 var Crossword = require('../lib/puzzler').Crossword;
 var fileName = __dirname + '/chump.puz';
 
-var crossword = new Crossword(fileName);
+var crossword = new Crossword({filename: fileName});
 var json = crossword.toJson();
 
 var errors = []
