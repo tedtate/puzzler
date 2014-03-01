@@ -7,6 +7,15 @@
 		{
 			"name" : "George Zalepa",
 			"email" : "george.zalepa@gmail.com"
+		},
+		{
+			"name": "Ted Tate",
+			"email": "tedtate@gmail.com"
 		}
-	]
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/tedtate/puzzler"
+	},
+	"main": "lib/puzzler.js"
 }
