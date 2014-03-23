@@ -24,7 +24,7 @@
     "gulp-util": "^2.2.14",
     "chai": "^1.9.1"
   },
-  "dependancies": {
+  "dependencies": {
     "lodash": "^2.4.1"
   }
 }
