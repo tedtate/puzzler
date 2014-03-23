@@ -1,4 +1,3 @@
-// TESTING
 var Crossword = require('../lib/crossword');
 var chai = require('chai');
 var assert = chai.assert;
@@ -24,7 +23,6 @@ function printBoard(board) {
 }
 
 describe('Crossword', function() {
-
     describe('toJson', function() {
 
         it('should get the correct height of the puzzle', function() {
@@ -52,7 +50,6 @@ describe('Crossword', function() {
             var c = new Crossword(fileOpts);
             var json = c.toJson();
             
-            //console.log(json);
             assert.equal(json.header.numberOfClues, 78);           
         });
     });
