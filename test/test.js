@@ -42,15 +42,15 @@ describe('Crossword', function() {
         it('should find the puzzle\'s title', function() {
             var c = new Crossword(fileOpts);
             var json = c.toJson();
-            
+
             assert.equal(json.header.title, 'Chump Change');
         });
 
         it('should find the right number of clues', function() {
             var c = new Crossword(fileOpts);
             var json = c.toJson();
-            
-            assert.equal(json.header.numberOfClues, 78);           
+
+            assert.equal(json.header.numberOfClues, 78);
         });
     });
 
