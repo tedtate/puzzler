@@ -23,6 +23,8 @@
     "gulp-mocha": "^0.4.1",
     "gulp-util": "^2.2.14",
     "chai": "^1.9.1",
+  },
+  "dependancies": {
     "lodash": "^2.4.1"
   }
 }
