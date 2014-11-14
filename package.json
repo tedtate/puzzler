@@ -1,6 +1,6 @@
 {
   "name": "puzzler",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "author": "Ted Tate <tedtate@gmail.com>",
   "description": "library for manipulating Across Lite crossword puzzles",
   "contributors": [
