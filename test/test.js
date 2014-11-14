@@ -9,19 +9,6 @@ var buffer = fs.readFileSync(__dirname + '/fixtures/classic.puz');
 var fileOpts = {filename: fileName};
 var bufOpts = {raw: buffer};
 
-function printBoard(board) {
-    var output = '';
-
-    for (var i = 0; i < board.length; i++) {
-        var j = 0;
-        for (j = 0; j < board[i].length; j++) {
-            output += board[i][j].letter;
-        }
-        output += (i !== board.length - 1) ? '\n' : '';
-    }
-    return output;
-}
-
 describe('Crossword', function() {
     describe('toJson', function() {
 
@@ -78,7 +65,7 @@ describe('Crossword', function() {
             var c = new Crossword(bufOpts);
             var json = c.toJson();
 
-            assert.equal(printBoard(json.board), boardFixture);
+            assert.equal(Crossword.printBoard(json.board), boardFixture);
         })
     });
 });
