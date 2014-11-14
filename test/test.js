@@ -49,8 +49,10 @@ describe('Crossword', function() {
         it('should find the right number of clues', function() {
             var c = new Crossword(fileOpts);
             var json = c.toJson();
+            var NUM_CLUES = 78;
 
-            assert.equal(json.header.numberOfClues, 78);
+            assert.equal(json.header.numberOfClues, NUM_CLUES);
+            assert.equal(json.clues.across.length + json.clues.down.length, NUM_CLUES);
         });
     });
 
