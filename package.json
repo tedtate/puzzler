@@ -1,16 +1,16 @@
 {
   "name": "puzzler",
   "version": "0.0.1",
-  "author": "George Zalepa <george.zalepa@gmail.com>",
+  "author": "Ted Tate <tedtate@gmail.com>",
   "description": "library for manipulating Across Lite crossword puzzles",
   "contributors": [
     {
-      "name": "George Zalepa",
-      "email": "george.zalepa@gmail.com"
-    },
-    {
       "name": "Ted Tate",
       "email": "tedtate@gmail.com"
+    },
+    {
+      "name": "George Zalepa",
+      "email": "george.zalepa@gmail.com"
     }
   ],
   "repository": {
