@@ -13,5 +13,5 @@ A node.js module for reading .puz files used in Across Lite.
      
 # Status
 
-1. `.toJson` method is stubbed out for now, is top priority
-2. command line tools are next priority
+1. `.toJson` method returns a bunch of different data but it isn't very well organized.
+2. A couple of basic tests have been added but they barely touch the surface of what is needed.
