@@ -52,7 +52,7 @@ describe('Crossword', function() {
             var NUM_CLUES = 78;
 
             assert.equal(json.header.numberOfClues, NUM_CLUES);
-            assert.equal(json.clues.across.length + json.clues.down.length, NUM_CLUES);
+            assert.equal(Object.keys(json.clues.across).length + Object.keys(json.clues.down).length, NUM_CLUES);
         });
     });
 
