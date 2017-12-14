@@ -6,7 +6,7 @@ A node.js module for reading .puz files used in Across Lite.
 # Usage
 
     var Crossword = require('puzzlr').Crossword;
-    var crossword = new Crossword('puzzle.puz');
+    var crossword = new Crossword({filename:'puzzle.puz'});
         
     crossword.toJson(); # => formatted JSON 
     
